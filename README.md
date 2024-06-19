@@ -3,6 +3,4 @@ Spose is a python tool for scanning open ports behind a Squid proxy. It uses the
 
 # USAGE 
 
-wget https://raw.githubusercontent.com/ahmetartuc/SPOSE.PY/main/spose.py
-chmod +x spose.py
 python3 spose.py --proxy http://target-ip:3128 --target 127.0.0.1
